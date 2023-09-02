@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito</title>
+</head>
+<body>
+
+    <header>
+        <nav>
+          <div class="page-title">
+            <img src="/multimedia/branding/isotype.svg" alt="Logo de FunkoShop">
+            <h1>FunkoShop</h1>
+          </div>  
+          <div class="hyperlinks">
+            <ul>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Contacto</a></li>
+                <li><a href="#">Login</a></li>
+                <li><img src="/multimedia/icons/cart-icon.svg" alt="Ícono de carrito de compras"></li>
+            </ul>
+          </div>
+        </nav>
+    </header>
+
+    <h2>Carrito de Compras</h2>
+
+    <section>
+
+        <div class="cart-header">
+            <span>Detalle de producto</span>
+            <span>Cantidad</span>
+            <span>Total</span>
+        </div>
+
+        <div class="selected-items">
+            <div class="selected-item">
+                <img src="" alt="">
+                <h3 id="item-character-name">Baby Yoda Blueball</h3>
+                <h4 id="item-title">Star Wars</h4>
+                <span>Precio: $</span>
+                <span id="price">1799,99</span>
+                <input type="button" value="+">
+                <input type="button" value="-">
+            </div>
+
+            <div class="selected-units">
+                <input type="number" min="0" max="10" placeholder="1">
+            </div>
+
+            <div class="total">
+                <span id="resume-total">3599,98</span>
+            </div>
+
+            <div class="delete-item-from-cart">
+                <img src="/multimedia/icons/delete_trash.svg" alt="Ícono que elimina item del carrito">
+            </div>
+        </div>
+
+    </section>
+
+    <section>
+        <h2>Resumen</h2>
+        <div class="checkout">
+            <span>Cantidad de elementos</span>
+            <span>3</span>
+            <span>Subtotal</span>
+            <span>$</span><span>5.399,97</span>
+            <span>Envio</span>
+            <span>$</span><span>0,00</span>
+        </div>
+        <input type="submit" value="Ir a Pagar">
+    </section>
+
+    <footer>
+        <div class="footer">
+          <ul>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Ingresar</a></li>
+            <li><a href="#">Contacto</a></li>
+          </ul>
+          <img src="/multimedia/branding/isotype.svg" alt="Logo de FunkoShop">
+        </div>
+          
+        <small>
+          <p>All rights reserved 2023 - Funkoshop &copy;</p>
+        </small>
+      </footer>
+    
+</body>
+</html>

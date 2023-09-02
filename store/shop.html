@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="page-title">
+        <img src="/multimedia/branding/isotype.svg" alt="Logo de FunkoShop">
+        <h1>FunkoShop</h1>
+      </div>  
+      <div class="hyperlinks">
+        <ul>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Contacto</a></li>
+            <li><a href="#">Login</a></li>
+            <li><img src="/multimedia/icons/cart-icon.svg" alt="Ícono de carrito de compras"></li>
+        </ul>
+      </div>
+    </nav>
+</header>
+
+  <main>
+
+      <nav class="side-nav">
+        <div class="search">
+            <span>Buscar</span>
+            <input type="text" placeholder="Item o categoría">
+        </div>
+        <div class="order-by">
+            <span>Ordenar por</span>
+            <select placeholder="Mayor o menor">
+                <option value="mayor">Mayor a menor</option>
+                <option value="menor">Menor a mayor</option>
+                <option value="popular">Popular</option>
+            </select>
+        </div>
+        <div class="price">
+            <span>Precio</span>
+            <label for="">Min</label>
+            <input type="number" name="Min" min="0" max="10000" placeholder="0" value="Min">
+            <label for="">Max</label>
+            <input type="number" name="Max" min="0" max="10000" placeholder="0" value="Max">
+        </div>
+        <div class="filter-by">
+            <span>Filtrar</span>
+            <label for="nuevos">Nuevos</label>
+            <input type="checkbox" name="nuevos">
+            <label for="ofertas">Ofertas</label>
+            <input type="checkbox" name="ofertas">
+            <label for="special-edition">Edición Especial</label>
+            <input type="checkbox" name="special-edition">
+            <label for="favoritos">Favoritos</label>
+            <input type="checkbox" name="favoritos">
+        </div>
+      </nav>
+    </section>
+
+    <section class="products">
+      <div class="funko-shop-item">
+          <span>Nuevo</span>
+          <img src="/multimedia/star-wars/trooper-1.webp" alt="Funko de Star Wars">
+          <div class="funko-releases-data">
+            <h3>Star Wars</h3>
+            <h4>StormTrooper LightSaber</h4>
+            <p>$ 1799,99</p>
+            <p>3 cuotas sin interés</p>
+          </div>
+      </div>
+    </section>
+
+    <!-- Falta hacer botón para navegar por páginas -->
+
+
+  </main>
+  
+  <footer>
+      <div class="footer">
+        <ul>
+          <li><a href="#">Shop</a></li>
+          <li><a href="#">Ingresar</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+        <img src="/multimedia/branding/isotype.svg" alt="Logo de FunkoShop">
+      </div>
+        
+      <small>
+        <p>All rights reserved 2023 - Funkoshop &copy;</p>
+      </small>
+    </footer>
+</body>
+</html>

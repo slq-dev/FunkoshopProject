@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create</title>
+  </head>
+  <body>
+    
+    <header>
+        <nav>
+          <div class="page-title">
+            <img src="/multimedia/branding/isotype.svg" alt="Logo de FunkoShop">
+            <h1>FunkoShop</h1>
+          </div>  
+          <div class="hyperlinks">
+            <ul>
+                <li><a href="#">Ver Tienda</a></li>
+                <li><a href="#">Admin</a></li>
+                <li><a href="#">Salir</a></li>
+            </ul>
+          </div>
+        </nav>
+    </header>
+
+    <section>
+      <form>
+
+        <h2>Crear nuevo Item</h2>
+
+        <label for="category">Categoría:</label>
+        <select name="category">
+          <option value="0" selected>Seleccionar</option>
+        </select>
+
+        <label for="licence">Licencia:</label>
+        <select name="licence">
+          <option value="0" selected>Seleccionar</option>
+        </select>
+
+        <label for="productName">Nombre del Producto:</label>
+        <input type="text" name="productName" placeholder="Sonic">
+        <textarea 
+          name="productDescription" 
+          autocomplete="on" 
+          placeholder="Descripción del Producto" 
+          cols="50" 
+          rows="10" 
+          required>
+        </textarea>
+
+        <label for="sku">SKU:</label>
+        <input type="text" name="sku" placeholder="SSK111AB001">
+
+        <label for="precio">Precio:</label>
+        <input type="number" min="0" placeholder="$ 0.000,00">
+
+        <label for="stock">Stock:</label>
+        <input type="number" min="0" placeholder="0">
+
+        <label for="discount">Descuento:</label>
+        <input type="number" min="0" placeholder="0%">
+
+        <label for="fee">Cuotas:</label>
+        <select name="fee">
+          <option value="3" selected>3 Cuotas sin Interés</option>
+          <option value="6">6 Cuotas sin Interés</option>
+          <option value="12">12 Cuotas sin Interés</option>
+          <option value="24">24 Cuotas sin Interés</option>
+        </select>
+
+        <label for="productImages">Imágenes:</label>
+        <input type="file" name="productImages" accept="image/png, image/jpeg">
+      
+        <input type="submit" class="red-button" value="Agregar Producto">
+        <input type="button" class="red-button" value="Limpiar">
+      
+      </form>
+    </section>
+
+    <footer>
+      <div class="footer">
+        <ul>
+          <li><a href="#">Shop</a></li>
+          <li><a href="#">Ingresar</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+        <img src="/multimedia/branding/isotype.svg" alt="Logo de FunkoShop">
+      </div>
+        
+      <small>
+        <p>All rights reserved 2023 - Funkoshop &copy;</p>
+      </small>
+    </footer>
+  </body>
+</html>
